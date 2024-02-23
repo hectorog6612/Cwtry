@@ -98,7 +98,7 @@ async def account_login(bot: Client, m: Message):
           await m.reply_text(token)
       else:
            await m.reply_text("go back to response")
-      token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MDg2Nzk1NDYsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiZFhwRGJqaFdURUZLVXk5ckwwSmhPV3BSTldocWR6MDkiLCJmaXJzdF9uYW1lIjoiTm05cWRXRnFjbEpxSzA5eU5WTnFMekEzT1VNNVVUMDkiLCJlbWFpbCI6IlpIUXJhVWxYU0RaRmJqRXZiV2w2TUhSak5ucEZLekZNTldoTk5VdzNNVlppYW5CWVdXSXJaVmt5TUQwPSIsInBob25lIjoiVDNWS1JYaFlORFJITWtsRWRHdERPVEJ2Vm5WMVVUMDkiLCJyZWZlcnJhbF9jb2RlIjoiVTBGTFpFdERSVlo2TTJodGNUZHNaMjVsUkhaS1p6MDkiLCJkZXZpY2VfdHlwZSI6ImFuZHJvaWQiLCJkZXZpY2VfdmVyc2lvbiI6IlIoQW5kcm9pZCAxMS4wKSIsImRldmljZV9tb2RlbCI6Ikdvb2dsZSBzZGtfZ3Bob25lX3g4NiIsInJlbW90ZV9hZGRyIjoiMjIzLjE3OC4yMTMuMTc3In19.IE6SzJ3llQdPVq_1VihVXdqCyW4MWte9eEd_uzDzkCw8xNxyUdHBTFiWPlZVe5bN4gPkCszjo7SyIqxvvL0_RRg5cLTnHWwmxiWKmOzOCGnbPL14k2gzCHwUOa8rhdrdRwZJuN9s15NxqFVHtAx0K01_ZOoYhS8Cud256D1sENG4lLjGxvTBpIS2uxs0BLDKpJYG7DobjH_s4t9DoH_GwbuxdEokwFVj_cKCmirfVenERCb43AmOi6VwubPT8ISIVMVWLDkMm49n6NsgiZxpPS5g80FdOki_U4_w6SBFuEuRfOXnV8dSO1cTSMAOH6oqTSAQ6XMocs0rjH7GQ7QGBQ"
+      #token = "#token = "4ffd1627981589c0a1261f7a114fbbf8bc87c6d9"
       await m.reply_text(f"```{token}```")
     else:
       token = raw_text
